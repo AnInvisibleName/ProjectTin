@@ -1,0 +1,193 @@
+.img-hover-effect img {
+    transition: 0.3s ease-in-out;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input {
+    flex-grow: 1;
+    padding: 6px 10px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+}
+
+.searchBar button {
+    padding: 6px 10px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #ccc;
+    background: white;
+}
+.img-hover-effect img:hover {
+    opacity: 0.7;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.film-img {
+    height: 150px;
+    width: 80px;
+}
+
+.film-img-carousel {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel {
+    height: 500px;
+    width: 100%;
+}
+
+.title {
+    border-left: solid rgb(61, 61, 61) 5px
+}
+
+.item {
+    display: inline-flex;
+}
+
+.picture {
+    height: 250px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+#footer {
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+}
+
+/* body {
+    background-image: url(images/ads/p_studios_avatar_fireandash_windtrader_poster_a90c31b6.jpeg);
+} */
+/* .layout-3col {
+    display: flex;
+    width: 100%;
+} */
+.left-side {
+    width: 15%;
+    background: #000000;
+    min-height: 100vh;
+}
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+.right-side {
+    width: 15%;
+    background: #000000;
+    min-height: 100vh;
+}
+.side-ad {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/* .body{
+
+} */
+/* .container.wrapper {
+    max-width: 1600px !important;
+} */
+/* .layout-3col {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    gap: 20px;
+} */
+
+/* .left-col,
+.right-col {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.center-col {
+    width: 100%;
+} */
+#new-list ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#TopToWatch ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+.container.wrapper {
+    background-color: #343a40 !important;
+    color: rgb(255, 255, 255);
+    /* width: 70%;
+    margin-left: 15%; 
+    margin-right: 15%;  */
+}
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* body::after {
+    content: "";
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%;
+    height: 500px; 
+    background-image: url("https://tintuc-divineshop.cdn.vccloud.vn/wp-content/uploads/2025/11/zoto2-696x1031.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    pointer-events: none;
+}
+body::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%;
+    height: 500px; 
+    background-image: url("https://tintuc-divineshop.cdn.vccloud.vn/wp-content/uploads/2025/11/zoto2-696x1031.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    pointer-events: none;
+} */
+.ad {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%;
+    max-width: 15%;
+    z-index: 10;
+    pointer-events: auto;
+}
+
+.ad-left {
+    left: 0;
+}
+
+.ad-right {
+    right: 0;
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.ad img:hover {
+    opacity: 0.7;
+    transform: scale(1.03);
+    cursor: pointer;
+}
